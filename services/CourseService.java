@@ -8,7 +8,7 @@ public class CourseService {
     private final List<Course> courses = new ArrayList<>();
 
     public CourseService() {
-        // Sample data
+        
         Course c1 = new Course("Java Basics", "Learn the fundamentals of Java");
         c1.addAssignment(new Assignment("Intro Assignment", "Explain OOP in Java"));
         courses.add(c1);
